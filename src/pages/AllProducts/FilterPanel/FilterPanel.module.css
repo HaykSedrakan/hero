@@ -1,0 +1,376 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.filterPanel {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
+
+.filterTitle {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.filterForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.filterLabel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666;
+}
+
+.search {
+    margin-left: 6px;
+}
+
+filterCheckbox {
+    margin-left: 8px;
+}
+
+.filterInput {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.filterPriceRange {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+.filterPriceRange label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666;
+    cursor: pointer;
+}
+
+.inpSearch {
+    margin-right: 8px;
+}
+
+.filterButton {
+    padding: 8px 16px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filterButton:hover {
+    background-color: #444;
+}
+
+.filterReset {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.filterReset {
+    color: #333;
+    text-decoration: underline;
+}
+
+
+.filterVersion {
+    margin-bottom: 8px;
+}
+
+.filterVersion select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.filterVersion select:focus {
+    border-color: #333;
+
+}
+
+.filterReset {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.filterReset:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.inpSearch[type='text'] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.rangeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.filterGroupHeader {
+    margin: 7px;
+}
+
+.section {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.productImg {
+    width: 230px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.titleProducts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(38, 27, 4);
+}
+
+.productTitle {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.productType {
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.productPrice {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    font-weight: 600;
+}
+
+.btnContainer {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.seeAllBtn {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: background-color .5s;
+}
+
+.seeAllBtn:hover {
+    background-color: #f3efef;
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex-basis: calc(25% - 20px);
+}
+
+@media screen and (max-width: 768px) {
+
+    .product {
+        flex-basis: calc(33.33% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .product {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+.colorRowContainer {
+    display: inline;
+}
+
+.colorsNameContainer {
+    display: flex;
+}
+
+.colorRowContainer {
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.colorsNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorname {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.colorRowContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.activeColor {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 25px;
+    height: 25px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    color: white;
+}
+
+.activeColor::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 4.5px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+    color: white;
+}
+
+.left {
+    width: 600px;
+}
+
+.right {
+    flex: 1;
+}

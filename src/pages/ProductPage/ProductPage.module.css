@@ -1,0 +1,350 @@
+.section {
+    margin-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 200px 0 200px;
+}
+
+.left {
+    flex-basis: 50%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 50%;
+    width: 750px;
+    height: 700px;
+}
+
+.productTitle {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgb(219, 128, 48);
+    font-weight: 600;
+    border: 2px solid rgb(219, 128, 48);
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.productName {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(55, 55, 55);
+}
+
+.mainInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 500px;
+}
+
+.price {
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.dollarIconContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+.colorRowContainer {
+    display: inline;
+}
+
+
+
+.colorRowContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorsCmpContainer {
+    display: flex;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.colorsNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorname {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.colorRowContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorContainer {
+    display: flex;
+    /* align-items: center; */
+    margin-right: 10px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.activeColor {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 25px;
+    height: 25px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    color: white;
+}
+
+.activeColor::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 4.5px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+    color: white;
+}
+
+.availableColors {
+    display: flex;
+    align-items: center;
+    color: rgb(55, 55, 55);
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.materialCpm {
+    color: rgb(55, 55, 55);
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item {
+    margin: 10px;
+}
+
+.material {
+    color: rgb(219, 128, 48);
+}
+
+.sizeTitle {
+    font-size: 19px;
+    text-transform: uppercase;
+    opacity: .7;
+    padding-left: 10px;
+}
+
+.sizeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sizes {
+    display: flex;
+    margin-top: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    max-width: 520px;
+    margin-top: 30px;
+}
+
+.priceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.amd {
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 3px;
+}
+
+
+.pr {
+    color: rgb(55, 55, 55);
+}
+
+.wrapperPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceTitle {
+    text-align: center;
+    margin: 10px;
+}
+
+.order {
+    margin-top: 30px;
+}
+
+.secondSection {
+    margin-bottom: 100px;
+}
+
+
+.containerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+
+.productImg {
+    width: 230px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.titleProducts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(38, 27, 4);
+}
+
+.productname {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.productType {
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.productPrice {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    font-weight: 600;
+}
+
+.btnContainer {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.seeAllBtn {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: background-color .5s;
+}
+
+.seeAllBtn:hover {
+    background-color: #f3efef;
+}
+
+.similarCards {
+    display: flex;
+    justify-content: center;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.product {
+    margin-right: 100px;
+}
+
+.product:last-child {
+    margin-right: 0;
+}

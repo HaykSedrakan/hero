@@ -1,0 +1,52 @@
+.section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 40px;
+    margin-bottom: 13px;
+}
+
+.title {
+    color: rgb(5, 2, 2);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.desc {
+    max-width: 300px;
+    color: rgb(123, 124, 123);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(38, 27, 4);
+}

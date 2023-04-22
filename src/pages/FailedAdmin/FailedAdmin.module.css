@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text {
+    margin: 40px auto;
+    color: crimson;
+}
+
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 60px;
+    color: #0066b2;
+    animation: skyIcon 1s alternate infinite ease-in;
+}
+
+@keyframes skyIcon {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.goBack {
+    align-self: center;
+    font-size: 30px;
+    color: #396a90;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.goBack:hover {
+    color: #0963a8;
+    font-size: 32px;
+}

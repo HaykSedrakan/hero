@@ -1,0 +1,77 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.textContainer {
+    position: absolute;
+    bottom: 6%;
+}
+
+.leftImgTitle {
+    margin-left: 30px;
+    color: #fff;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+
+.data {
+    margin-left: 30px;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 400;
+
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(38, 27, 4);
+}
+
+.mainRecent {
+    width: 595px;
+    height: 460px;
+    filter: brightness(55%);
+}
+
+.recentProject {
+    position: relative;
+}
+
+.recentImg {
+    width: 380px;
+    height: 220.3px;
+    filter: brightness(55%);
+}
+
+.left {
+    margin-right: 25px;
+}
+
+.right .recentProject:first-child {
+    margin-bottom: 17px;
+}

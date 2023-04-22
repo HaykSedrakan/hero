@@ -1,0 +1,75 @@
+/* .chartsRight {
+    padding: 25px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.chartsRightTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chartsRightTitle>div>h1 {
+    font-size: 24px;
+    color: #2e4a66;
+    margin-bottom: 5px;
+}
+
+.chartsRightTitle>div>p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a5aaad;
+}
+
+.chartsRightTitle>i {
+    color: #ffffff;
+    font-size: 20px;
+    background: #39447a;
+    border-radius: 200px 0px 200px 200px;
+    -moz-border-radius: 200px 0px 200px 200px;
+    -webkit-border-radius: 200px 0px 200px 200px;
+    border: 0px solid #000000;
+    padding: 15px;
+} */
+
+.chartsRightCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 100px;
+    background: #d1ecf1;
+    color: #35a4ba;
+    text-align: center;
+    padding: 25px;
+    min-width: 200px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.titleModal {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.addInpCateogoryContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.sendButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.myToast {
+    font-size: 16px;
+}

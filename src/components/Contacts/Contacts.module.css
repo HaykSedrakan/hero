@@ -1,0 +1,106 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.title {
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(38, 27, 4);
+}
+
+
+.map {
+    width: 600px;
+    height: 350px;
+    border: none;
+}
+
+.left {
+    width: 400px;
+    height: 500px;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.addressTitle {
+    font-size: 18px;
+    color: rgb(46, 46, 17);
+    margin-bottom: 10px;
+}
+
+.addressContent {
+    color: rgb(93, 83, 71);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.officeHourse {
+    display: flex;
+    flex-direction: column;
+}
+
+.officeHourseTitle {
+    font-size: 18px;
+    color: rgb(46, 46, 17);
+    margin-bottom: 10px;
+}
+
+.officeHourseContent {
+    color: rgb(93, 83, 71);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.right {
+    margin-left: 100px;
+}
+
+.socialMediaContent {
+    display: flex;
+    align-items: center;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 80px;
+}
+
+.socialMediaIconFacebook {
+    font-size: 30px;
+    color: rgb(66, 66, 66);
+}
+
+.socialMediaIconInstagram {
+    font-size: 24px;
+    color: rgb(66, 66, 66);
+}
+
+.socialMediaTitle {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+}

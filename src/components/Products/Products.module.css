@@ -1,0 +1,84 @@
+.section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+}
+
+.productImg {
+    width: 230px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.titleProducts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(38, 27, 4);
+}
+
+.productTitle {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.productType {
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.productPrice {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(69, 59, 46);
+    font-weight: 600;
+}
+
+.btnContainer {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.seeAllBtn {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: background-color .5s;
+}
+
+.seeAllBtn:hover {
+    background-color: #f3efef;
+}

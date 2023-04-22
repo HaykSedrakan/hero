@@ -1,0 +1,49 @@
+*:focus {
+    outline: 0;
+    outline: none;
+}
+
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    height: 500px;
+    object-fit: contain;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transform: scale(1);
+    transition: transform 300ms;
+    opacity: 0.9;
+    background-color: transparent;
+}
+
+.slick-list {
+    background-color: transparent !important;
+}
+
+.activeSlide {
+
+    transform: scale(.8);
+    opacity: 1;
+}
+
+
+.slick-slider {
+    margin: 0 250px;
+    width: 100%;
+    height: 100%;
+}
+
+.slick-slide:last-of-type {
+    margin-right: 0;
+}
+
+
+.sliderWrapper {
+    margin: 30px 0;
+    width: 1115px;
+}

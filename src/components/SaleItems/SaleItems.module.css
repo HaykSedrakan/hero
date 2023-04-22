@@ -1,0 +1,110 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(38, 27, 4);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+}
+
+.imgContainer {
+    margin-right: 30px;
+}
+
+.mainImg {
+    width: 360px;
+    height: 330px;
+}
+
+.left {
+    display: flex;
+    margin-right: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    max-width: 180px;
+    color: rgb(37, 24, 4);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.description {
+    max-width: 270px;
+    color: rgb(117, 116, 113);
+}
+
+.newPrice {
+    font-size: 27px;
+    color: crimson;
+}
+
+.oldPrice {
+    color: rgb(102, 102, 102);
+    text-decoration: line-through;
+}
+
+.img {
+    height: 150px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.miniProducts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.discaundTag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(206, 31, 31);
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.type {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}

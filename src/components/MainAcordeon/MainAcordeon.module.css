@@ -1,0 +1,16 @@
+.section {
+    margin: 0 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 95px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    margin-right: 80px;
+    flex-shrink: 0;
+}

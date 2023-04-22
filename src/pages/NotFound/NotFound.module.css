@@ -1,0 +1,57 @@
+.not404 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 80px;
+    color: rgb(55, 55, 55);
+    letter-spacing: 1px;
+}
+
+
+.goHomeContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(55, 55, 55);
+
+}
+
+.lookLike {
+    margin: 5px;
+}
+
+.goHome {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: .3s;
+    margin-top: 5px;
+}
+
+.goHome:hover {
+    background-color: white;
+    color: #5cb85c;
+}
+
+.notFound {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: rgb(55, 55, 55);
+}
+
+.gifContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif {
+    height: 500px;
+    width: 800px;
+    background: url('./bg.gif')
+}

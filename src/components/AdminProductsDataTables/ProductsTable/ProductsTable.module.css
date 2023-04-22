@@ -1,0 +1,80 @@
+.tableProductColumn {
+    display: flex;
+    align-items: center;
+}
+
+.linkToAddProduct {
+    color: rgba(65, 65, 211, 0.784);
+}
+
+.link:hover {
+    color: rgba(39, 39, 219, 0.784);
+
+}
+
+.colorRowContainer {
+    display: inline;
+}
+
+.colorsNameContainer {
+    display: flex;
+}
+
+.colorRowContainer {
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.colorsNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorname {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.colorRowContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.colorsNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorname {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.statusCont {
+    width: 1000px;
+}
+
+.tableProductColumn {
+    min-width: 500px;
+}

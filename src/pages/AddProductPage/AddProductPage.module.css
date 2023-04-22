@@ -1,0 +1,448 @@
+.section {
+    margin: 100px;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78px;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.container {
+    min-height: 90vh;
+    background-color: #f6f6f6 !important;
+    padding: 18px 58px 18px 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.labelName {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addbtn {
+    font-size: 14px;
+    padding: 2;
+}
+
+.backContainer {
+    display: flex;
+    align-items: center;
+}
+
+.backIcon {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    background-color: #5cb85c;
+    padding: 4px 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.iconBtn {
+    color: #fff;
+    margin-right: 4px;
+    font-size: 15px;
+}
+
+.formNameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 670px;
+    margin-bottom: 50px;
+}
+
+.productNameIcon {
+    font-size: 18px;
+}
+
+.labelName {
+
+    font-size: 16px;
+}
+
+.labelStatus {
+    display: flex;
+    align-items: center;
+}
+
+
+.statusIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusIcon {
+    margin-right: 5px;
+}
+
+.statusContainer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+.status_es {
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.labelPrice {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.priceIcon {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.categoriesContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.categoryLabel {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.addNewCategory {
+    display: flex;
+    align-items: center;
+}
+
+.addCategoryButton {
+    margin-top: 20px;
+    border-radius: 2px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.addCategoryButton:hover {
+    opacity: .9;
+}
+
+.titleModal {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.addInpCateogoryContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.sendButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.myToast {
+    font-size: 16px;
+}
+
+.colorsContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.colorsLable {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.colorsIcon {
+    margin-right: 10px;
+}
+
+.sizeHeight {
+    display: flex;
+    align-items: center;
+}
+
+.sizeLabel {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.heightIcon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.defaultSizeLabel {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+}
+
+.descriptionLabel {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.imgUploaderContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.imgWrapper {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.imgArea {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    background: var(--grey);
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgArea .icon {
+    font-size: 100px;
+}
+
+.imgArea h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.imgArea p {
+    color: #999;
+}
+
+.imgArea p span {
+    font-weight: 600;
+}
+
+.imgArea img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 100;
+}
+
+.imgArea::before {
+    content: attr(data-img);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: all .3s ease;
+    z-index: 200;
+}
+
+.imgArea.active:hover::before {
+    opacity: 1;
+}
+
+.selectImage {
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 15px;
+    background: var(--blue);
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.selectImage:hover {
+    background: var(--dark-blue);
+}
+
+.uploadImgIcon {
+    font-size: 80px;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 360px;
+}
+
+.imgContainer .imgWrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 5px;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.imgContainer .imgWrapper img {
+    height: 100px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.imgContainer .imgWrapper:hover img {
+    filter: brightness(55%);
+}
+
+.imgContainer .imgWrapper .deleteBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.imgContainer .imgWrapper:hover .deleteBtn {
+    display: block;
+}
+
+.imgContainer .imgWrapper .deleteBtn::before,
+.imgContainer .imgWrapper .deleteBtn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 2px;
+    background-color: #000;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.imgContainer .imgWrapper .deleteBtn::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.imgContainer .imgWrapper .deleteBtn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.img {
+    height: 80px;
+}
+
+.imgLabel {
+    margin: 10px;
+}
+
+.editorContainer {
+    margin-bottom: 50px;
+}
+
+
+.imgLabel {
+    display: flex;
+    align-items: center;
+}
+
+.imgIcon {
+    margin-right: 10px;
+}
+
+.disabledContainer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.disabledIcon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.disabledLabel {
+    display: flex;
+    align-items: center;
+}
+
+.restart {
+    color: #fff;
+}
+
+.refreshContainer {
+    color: white;
+}
+
+.statusRef {
+    background-color: #3781d6;
+}

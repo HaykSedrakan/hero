@@ -1,0 +1,17 @@
+.titleModal {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.addInpMaterialContainer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.sendButtonContainer {
+    display: flex;
+    justify-content: center;
+}
